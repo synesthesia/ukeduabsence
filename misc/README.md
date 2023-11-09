@@ -6,4 +6,4 @@ This folder contains supporting data that me may be useful when analysing the ab
 
 |File|Link|
 |----|----|
-|Edubase Establishments @ 2023-11-09|[edubasealldata20231109.csv]()|
+|Edubase Establishments @ 2023-11-09|[edubasealldata20231109.csv](https://media.githubusercontent.com/media/synesthesia/ukeduabsence/master/misc/edubasealldata20231109.csv)|
