@@ -1,0 +1,901 @@
+Pupil absence in schools in England
+2022/23 Autumn and spring term
+
+Description
+
+This document describes the data included in the ‘Pupil absence in schools in England’ National Statistics release’s underlying data files. This data is released under the terms of the Open Government License (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) and is intended to meet at least 3 stars for Open Data (https://www.gov.uk/government/publications/2010-to-2015-government-policy-government-transparency-and-accountability/2010-to-2015-government-policy-government-transparency-and-accountability#appendix-3-releasing-data-in-open-and-anonymised-formats). The methodology (https://explore-education-statistics.service.gov.uk/methodology/pupil-absence-in-schools-in-england) should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+This release provides information on the levels of overall, authorised and unauthorised absence in:
+
+- state-funded primary schools
+- state-funded secondary schools
+- special schools
+
+It includes information on:
+
+- reasons for absence
+- persistent absentees
+- separate absence information for state-funded alternative provision (including pupil referral units, alternative provision academies and free schools)
+
+The information is based on pupil level absence data collected via the school census.
+
+File formats and conventions
+
+Rounding and Suppression
+
+This dataset has not had suppression applied. Rates are presented to one decimal place in the report but are unrounded in the underlying data files
+
+Conventions
+
+The following convention is used throughout the underlying data.
+
+‘x’  Not available.
+
+‘z’  Not applicable
+
+Data files
+
+Absence rates by geographic level - autumn and spring term combined
+
+Filename: 1_absence_2term_main_rates_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: Absence information for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                   |  Variable description
+------------------------------  |  -----------------------------------------------------------------------------------
+enrolments                      |  Number of pupil enrolments
+enrolments_pa_10_exact          |  Number of persistent absentees - 10% or more sessions missed
+enrolments_pa_10_exact_percent  |  Percentage of persistent absentees - 10% or more sessions missed
+enrolments_pa_50_exact          |  Number of persistent absentees - 50% or more sessions missed
+enrolments_pa_50_exact_percent  |  Percentage of persistent absentees - 50% or more sessions missed
+num_schools                     |  Number of schools
+school_type                     |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments          |  Number of medical appointments sessions
+sess_auth_appointments_rate     |  Medical appointments rate
+sess_auth_excluded              |  Number of excluded sessions
+sess_auth_excluded_rate         |  Excluded rate
+sess_auth_ext_holiday           |  Number of extended authorised holiday sessions
+sess_auth_ext_holiday_rate      |  Extended authorised holiday rate
+sess_auth_holiday               |  Number of authorised holiday sessions
+sess_auth_holiday_rate          |  Authorised holiday rate
+sess_auth_illness               |  Number of illness sessions
+sess_auth_illness_rate          |  Illness rate
+sess_auth_other                 |  Number of authorised other sessions
+sess_auth_other_rate            |  Authorised other rate
+sess_auth_religious             |  Number of religious observance sessions
+sess_auth_religious_rate        |  Religious observance rate
+sess_auth_study                 |  Number of study leave sessions
+sess_auth_study_rate            |  Study leave rate
+sess_auth_totalreasons          |  Number of authorised reasons sessions
+sess_auth_totalreasons_rate     |  Authorised reasons rate
+sess_auth_traveller             |  Number of traveller sessions
+sess_auth_traveller_rate        |  Traveller rate
+sess_authorised                 |  Number of authorised absence sessions
+sess_authorised_percent         |  Authorised absence rate
+sess_overall                    |  Number of overall absence sessions
+sess_overall_percent            |  Overall absence rate
+sess_overall_totalreasons       |  Number of overall reasons sessions
+sess_overall_totalreasons_rate  |  Overall reasons rate
+sess_possible                   |  Number of sessions possible
+sess_unauth_holiday             |  Number of unauthorised holiday sessions
+sess_unauth_holiday_rate        |  Unauthorised holiday rate
+sess_unauth_late                |  Number of late sessions
+sess_unauth_late_rate           |  Late rate
+sess_unauth_noyet               |  Number of no reason yet sessions
+sess_unauth_noyet_rate          |  No reason yet rate
+sess_unauth_other               |  Number of unauthorised other sessions
+sess_unauth_other_rate          |  Unauthorised other rate
+sess_unauth_totalreasons        |  Number of unauthorised reasons sessions
+sess_unauth_totalreasons_rate   |  Unauthorised reasons rate
+sess_unauthorised               |  Number of unauthorised absence sessions
+sess_unauthorised_percent       |  Unauthorised absence rate
+sess_x_covid                    |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate               |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional              |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by geographic level - school level - autumn and spring term combined
+
+Filename: 1_absence_2term_school.csv
+Geographic levels: School
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: Absence information for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15. Includes school level data.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                   |  Variable description
+------------------------------  |  -----------------------------------------------------------------------------------
+enrolments                      |  Number of pupil enrolments
+enrolments_pa_10_exact          |  Number of persistent absentees (10% or more missed)
+enrolments_pa_10_exact_percent  |  Percentage of persistent absentees (10% or more missed)
+enrolments_pa_50_exact          |  Number of severely absent pupils (50% or more missed)
+enrolments_pa_50_exact_percent  |  Percentage of severely absent pupils (50% or more missed)
+num_schools                     |  Number of schools
+school_type                     |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments          |  Number of medical appointments sessions
+sess_auth_appointments_rate     |  Medical appointments rate
+sess_auth_excluded              |  Number of excluded sessions
+sess_auth_excluded_rate         |  Excluded rate
+sess_auth_ext_holiday           |  Number of extended authorised holiday sessions
+sess_auth_ext_holiday_rate      |  Extended authorised holiday rate
+sess_auth_holiday               |  Number of authorised holiday sessions
+sess_auth_holiday_rate          |  Authorised holiday rate
+sess_auth_illness               |  Number of illness sessions
+sess_auth_illness_rate          |  Illness rate
+sess_auth_other                 |  Number of authorised other sessions
+sess_auth_other_rate            |  Authorised other rate
+sess_auth_religious             |  Number of religious observance sessions
+sess_auth_religious_rate        |  Religious observance rate
+sess_auth_study                 |  Number of study leave sessions
+sess_auth_study_rate            |  Study leave rate
+sess_auth_totalreasons          |  Number of authorised reasons sessions
+sess_auth_totalreasons_rate     |  Authorised reasons rate
+sess_auth_traveller             |  Number of traveller sessions
+sess_auth_traveller_rate        |  Traveller rate
+sess_authorised                 |  Number of authorised absence sessions
+sess_authorised_percent         |  Authorised absence rate
+sess_overall                    |  Number of overall absence sessions
+sess_overall_percent            |  Overall absence rate
+sess_overall_totalreasons       |  Number of overall reasons sessions
+sess_overall_totalreasons_rate  |  Overall reasons rate
+sess_possible                   |  Number of sessions possible
+sess_unauth_holiday             |  Number of unauthorised holiday sessions
+sess_unauth_holiday_rate        |  Unauthorised holiday rate
+sess_unauth_late                |  Number of late sessions
+sess_unauth_late_rate           |  Late rate
+sess_unauth_noyet               |  Number of no reason yet sessions
+sess_unauth_noyet_rate          |  No reason yet rate
+sess_unauth_other               |  Number of unauthorised other sessions
+sess_unauth_other_rate          |  Unauthorised other rate
+sess_unauth_totalreasons        |  Number of unauthorised reasons sessions
+sess_unauth_totalreasons_rate   |  Unauthorised reasons rate
+sess_unauthorised               |  Number of unauthorised absence sessions
+sess_unauthorised_percent       |  Unauthorised absence rate
+sess_x_covid                    |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate               |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional              |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by geographic level - termly
+
+Filename: 1b_absence_2term_main_termly_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018/19 Autumn term to 2022/23 Spring term
+Content summary: Termly absence information for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                   |  Variable description
+------------------------------  |  -----------------------------------------------------------------------------------
+enrolments_pa_10_exact          |  Number of persistent absentees - 10% or more sessions missed
+enrolments_pa_10_exact_percent  |  Percentage of persistent absentees - 10% or more sessions missed
+enrolments_pa_50_exact          |  Number of persistent absentees - 50% or more sessions missed
+enrolments_pa_50_exact_percent  |  Percentage of persistent absentees - 50% or more sessions missed
+school_type                     |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments          |  Number of medical appointments sessions
+sess_auth_appointments_rate     |  Medical appointments rate
+sess_auth_excluded              |  Number of excluded sessions
+sess_auth_excluded_rate         |  Excluded rate
+sess_auth_ext_holiday           |  Number of extended authorised holiday sessions
+sess_auth_ext_holiday_rate      |  Extended authorised holiday rate
+sess_auth_holiday               |  Number of authorised holiday sessions
+sess_auth_holiday_rate          |  Authorised holiday rate
+sess_auth_illness               |  Number of illness sessions
+sess_auth_illness_rate          |  Illness rate
+sess_auth_other                 |  Number of authorised other sessions
+sess_auth_other_rate            |  Authorised other rate
+sess_auth_religious             |  Number of religious observance sessions
+sess_auth_religious_rate        |  Religious observance rate
+sess_auth_study                 |  Number of study leave sessions
+sess_auth_study_rate            |  Study leave rate
+sess_auth_totalreasons          |  Number of authorised reasons sessions
+sess_auth_totalreasons_rate     |  Authorised reasons rate
+sess_auth_traveller             |  Number of traveller sessions
+sess_auth_traveller_rate        |  Traveller rate
+sess_authorised                 |  Number of authorised absence sessions
+sess_authorised_percent         |  Authorised absence rate
+sess_overall                    |  Number of overall absence sessions
+sess_overall_percent            |  Overall absence rate
+sess_overall_totalreasons       |  Number of overall reasons sessions
+sess_overall_totalreasons_rate  |  Overall reasons rate
+sess_possible                   |  Number of sessions possible
+sess_unauth_holiday             |  Number of unauthorised holiday sessions
+sess_unauth_holiday_rate        |  Unauthorised holiday rate
+sess_unauth_late                |  Number of late sessions
+sess_unauth_late_rate           |  Late rate
+sess_unauth_noyet               |  Number of no reason yet sessions
+sess_unauth_noyet_rate          |  No reason yet rate
+sess_unauth_other               |  Number of unauthorised other sessions
+sess_unauth_other_rate          |  Unauthorised other rate
+sess_unauth_totalreasons        |  Number of unauthorised reasons sessions
+sess_unauth_totalreasons_rate   |  Unauthorised reasons rate
+sess_unauthorised               |  Number of unauthorised absence sessions
+sess_unauthorised_percent       |  Unauthorised absence rate
+sess_x_covid                    |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate               |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional              |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by geographic level - full academic years
+
+Filename: 1_absence_3term_nat_reg_la.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2006/07 to 2021/22
+Content summary: 
+Absence information for full academic years for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                          |  Variable description
+-------------------------------------  |  -----------------------------------------------------------------------------------
+enrolments                             |  Number of pupil enrolments
+enrolments_pa_10_exact                 |  Number of persistent absentees (10% or more missed)
+enrolments_pa_10_exact_percent         |  Percentage of persistent absentees (10% or more missed)
+enrolments_pa_50_exact                 |  Number of severe absentees (50% or more missed)
+enrolments_pa_50_exact_percent         |  Percentage of severe absentees (50% or more missed)
+num_schools                            |  Number of schools
+school_type                            |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments                 |  Number of medical appointments sessions
+sess_auth_appointments_rate            |  Medical appointments rate
+sess_auth_excluded                     |  Number of excluded sessions
+sess_auth_excluded_rate                |  Excluded rate
+sess_auth_ext_holiday                  |  Number of extended authorised holiday sessions
+sess_auth_ext_holiday_rate             |  Extended authorised holiday rate
+sess_auth_holiday                      |  Number of authorised holiday sessions
+sess_auth_holiday_rate                 |  Authorised holiday rate
+sess_auth_illness                      |  Number of illness sessions
+sess_auth_illness_rate                 |  Illness rate
+sess_auth_other                        |  Number of authorised other sessions
+sess_auth_other_rate                   |  Authorised other rate
+sess_auth_religious                    |  Number of religious observance sessions
+sess_auth_religious_rate               |  Religious observance rate
+sess_auth_study                        |  Number of study leave sessions
+sess_auth_study_rate                   |  Study leave rate
+sess_auth_totalreasons                 |  Number of authorised reasons sessions
+sess_auth_totalreasons_rate            |  Authorised reasons rate
+sess_auth_traveller                    |  Number of traveller sessions
+sess_auth_traveller_rate               |  Traveller rate
+sess_authorised                        |  Number of authorised absence sessions
+sess_authorised_pa_10_exact            |  Number of authorised absence sessions (persistent absentees only)
+sess_authorised_percent                |  Authorised absence rate
+sess_authorised_percent_pa_10_exact    |  Authorised absence rate (persistent absentees only)
+sess_overall                           |  Number of overall absence sessions
+sess_overall_pa_10_exact               |  Number of overall absence sessions (persistent absentees only)
+sess_overall_percent                   |  Overall absence rate
+sess_overall_percent_pa_10_exact       |  Overall absence rate (persistent absentees only)
+sess_overall_totalreasons              |  Number of overall reasons sessions
+sess_overall_totalreasons_rate         |  Overall reasons rate
+sess_possible                          |  Number of sessions possible
+sess_possible_pa_10_exact              |  Number of sessions possible (persistent absentees only)
+sess_unauth_holiday                    |  Number of unauthorised holiday sessions
+sess_unauth_holiday_rate               |  Unauthorised holiday rate
+sess_unauth_late                       |  Number of late sessions
+sess_unauth_late_rate                  |  Late rate
+sess_unauth_noyet                      |  Number of no reason yet sessions
+sess_unauth_noyet_rate                 |  No reason yet rate
+sess_unauth_other                      |  Number of unauthorised other sessions
+sess_unauth_other_rate                 |  Unauthorised other rate
+sess_unauth_totalreasons               |  Number of unauthorised reasons sessions
+sess_unauth_totalreasons_rate          |  Unauthorised reasons rate
+sess_unauthorised                      |  Number of unauthorised absence sessions
+sess_unauthorised_pa_10_exact          |  Number of unauthorised absence sessions (persistent absentees only)
+sess_unauthorised_percent              |  Unauthorised absence rate
+sess_unauthorised_percent_pa_10_exact  |  Unauthorised absence rate (persistent absentees only)
+sess_x_covid                           |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate                      |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional                     |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by geographic level - school level - full academic years
+
+Filename: 1_absence_3term_school.csv
+Geographic levels: School
+Time period: 2013/14 to 2021/22
+Content summary: Absence information for full academic years for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15. Includes school level data.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                          |  Variable description
+-------------------------------------  |  -----------------------------------------------------------------------------------
+enrolments                             |  Number of pupil enrolments
+enrolments_pa_10_exact                 |  Number of persistent absentees (10% or more missed)
+enrolments_pa_10_exact_percent         |  Percentage of persistent absentees (10% or more missed)
+enrolments_pa_50_exact                 |  Number of severely absent pupils (50% or more missed)
+enrolments_pa_50_exact_percent         |  Percentage of severely absent pupils (50% or more missed)
+num_schools                            |  Number of schools
+school_type                            |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments                 |  Number of medical appointments sessions
+sess_auth_appointments_rate            |  Medical appointments rate
+sess_auth_excluded                     |  Number of excluded sessions
+sess_auth_excluded_rate                |  Excluded rate
+sess_auth_ext_holiday                  |  Number of extended authorised holiday sessions
+sess_auth_ext_holiday_rate             |  Extended authorised holiday rate
+sess_auth_holiday                      |  Number of authorised holiday sessions
+sess_auth_holiday_rate                 |  Authorised holiday rate
+sess_auth_illness                      |  Number of illness sessions
+sess_auth_illness_rate                 |  Illness rate
+sess_auth_other                        |  Number of authorised other sessions
+sess_auth_other_rate                   |  Authorised other rate
+sess_auth_religious                    |  Number of religious observance sessions
+sess_auth_religious_rate               |  Religious observance rate
+sess_auth_study                        |  Number of study leave sessions
+sess_auth_study_rate                   |  Study leave rate
+sess_auth_totalreasons                 |  Number of authorised reasons sessions
+sess_auth_totalreasons_rate            |  Authorised reasons rate
+sess_auth_traveller                    |  Number of traveller sessions
+sess_auth_traveller_rate               |  Traveller rate
+sess_authorised                        |  Number of authorised absence sessions
+sess_authorised_pa_10_exact            |  Number of authorised absence sessions (persistent absentees only)
+sess_authorised_percent                |  Authorised absence rate
+sess_authorised_percent_pa_10_exact    |  Authorised absence rate (persistent absentees only)
+sess_overall                           |  Number of overall absence sessions
+sess_overall_pa_10_exact               |  Number of overall absence sessions (persistent absentees only)
+sess_overall_percent                   |  Overall absence rate
+sess_overall_percent_pa_10_exact       |  Overall absence rate (persistent absentees only)
+sess_overall_totalreasons              |  Number of overall reasons sessions
+sess_overall_totalreasons_rate         |  Overall reasons rate
+sess_possible                          |  Number of sessions possible
+sess_possible_pa_10_exact              |  Number of sessions possible (persistent absentees only)
+sess_unauth_holiday                    |  Number of unauthorised holiday sessions
+sess_unauth_holiday_rate               |  Unauthorised holiday rate
+sess_unauth_late                       |  Number of late sessions
+sess_unauth_late_rate                  |  Late rate
+sess_unauth_noyet                      |  Number of no reason yet sessions
+sess_unauth_noyet_rate                 |  No reason yet rate
+sess_unauth_other                      |  Number of unauthorised other sessions
+sess_unauth_other_rate                 |  Unauthorised other rate
+sess_unauth_totalreasons               |  Number of unauthorised reasons sessions
+sess_unauth_totalreasons_rate          |  Unauthorised reasons rate
+sess_unauthorised                      |  Number of unauthorised absence sessions
+sess_unauthorised_pa_10_exact          |  Number of unauthorised absence sessions (persistent absentees only)
+sess_unauthorised_percent              |  Unauthorised absence rate
+sess_unauthorised_percent_pa_10_exact  |  Unauthorised absence rate (persistent absentees only)
+sess_x_covid                           |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate                      |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional                     |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by pupil characteristic - autumn and spring term combined
+
+Filename: 6_absence_2term_characteristics.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: Absence information by characteristics for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15.
+
+Characteristics included are gender, year group, free school meal eligibility, SEN provision, SEN type of need, ethnicity and language.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                          |  Variable description
+-------------------------------------  |  -----------------------------------------------------------------------------------
+characteristic                         |  Characteristic - Filter by characteristic
+enrolments                             |  Number of pupil enrolments
+enrolments_pa_10_exact                 |  Number of persistent absentees - 10% or more sessions missed
+enrolments_pa_10_exact_percent         |  Percentage of persistent absentees - 10% or more sessions missed
+school_type                            |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments                 |  Number of medical appointments sessions
+sess_auth_excluded                     |  Number of excluded sessions
+sess_auth_ext_holiday                  |  Number of extended authorised holiday sessions
+sess_auth_holiday                      |  Number of authorised holiday sessions
+sess_auth_illness                      |  Number of illness sessions
+sess_auth_other                        |  Number of authorised other sessions
+sess_auth_religious                    |  Number of religious observance sessions
+sess_auth_study                        |  Number of study leave sessions
+sess_auth_totalreasons                 |  Number of authorised reasons sessions
+sess_auth_traveller                    |  Number of traveller sessions
+sess_authorised                        |  Number of authorised absence sessions
+sess_authorised_pa_10_exact            |  Number of authorised absence sessions for persistent absentees
+sess_authorised_percent                |  Authorised absence rate
+sess_authorised_percent_pa_10_exact    |  Authorised absence rate exact
+sess_overall                           |  Number of overall absence sessions
+sess_overall_pa_10_exact               |  Number of overall absence sessions for persistent absentees
+sess_overall_percent                   |  Overall absence rate
+sess_overall_percent_pa_10_exact       |  Overall absence rate exact
+sess_overall_totalreasons              |  Number of overall reasons sessions
+sess_possible                          |  Number of sessions possible
+sess_possible_pa_10_exact              |  Number of sessions possible for persistent absentees
+sess_unauth_holiday                    |  Number of unauthorised holiday sessions
+sess_unauth_late                       |  Number of late sessions
+sess_unauth_noyet                      |  Number of no reason yet sessions
+sess_unauth_other                      |  Number of unauthorised other sessions
+sess_unauth_totalreasons               |  Number of unauthorised reasons sessions
+sess_unauthorised                      |  Number of unauthorised absence sessions
+sess_unauthorised_pa_10_exact          |  Number of unauthorised absence sessions for persistent absentees
+sess_unauthorised_percent              |  Unauthorised absence rate
+sess_unauthorised_percent_pa_10_exact  |  Unauthorised absence rate exact
+sess_x_covid                           |  Number of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional                     |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by pupil characteristic - full academic years
+
+Filename: 6_absence_3term_characteristics.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2017/18 to 2021/22
+Content summary: 
+Absence information for the full academic year, by pupil characteristics including SEN, FSM, language, year group, gender and ethnicity for England.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                          |  Variable description
+-------------------------------------  |  -----------------------------------------------------------------------------------
+characteristic                         |  Characteristic - Filter by characteristic
+enrolments                             |  Number of pupil enrolments
+enrolments_pa_10_exact                 |  Number of persistent absentees (10% or more missed)
+enrolments_pa_10_exact_percent         |  Percentage of persistent absentees (10% or more missed)
+enrolments_pa_50_exact                 |  Number of severely absent pupils (50% or more missed)
+enrolments_pa_50_exact_percent         |  Percentage of severely absent pupils (50% or more missed)
+school_type                            |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments                 |  Number of medical appointments sessions
+sess_auth_excluded                     |  Number of excluded sessions
+sess_auth_ext_holiday                  |  Number of extended authorised holiday sessions
+sess_auth_holiday                      |  Number of authorised holiday sessions
+sess_auth_illness                      |  Number of illness sessions
+sess_auth_other                        |  Number of authorised other sessions
+sess_auth_religious                    |  Number of religious observance sessions
+sess_auth_study                        |  Number of study leave sessions
+sess_auth_totalreasons                 |  Number of authorised reasons sessions
+sess_auth_traveller                    |  Number of traveller sessions
+sess_authorised                        |  Number of authorised absence sessions
+sess_authorised_pa_10_exact            |  Number of authorised absence sessions for persistent absentees
+sess_authorised_percent                |  Authorised absence rate
+sess_authorised_percent_pa_10_exact    |  Authorised absence rate exact
+sess_overall                           |  Number of overall absence sessions
+sess_overall_pa_10_exact               |  Number of overall absence sessions for persistent absentees
+sess_overall_percent                   |  Overall absence rate
+sess_overall_percent_pa_10_exact       |  Overall absence rate exact
+sess_overall_totalreasons              |  Number of overall reasons sessions
+sess_possible                          |  Number of sessions possible
+sess_possible_pa_10_exact              |  Number of sessions possible for persistent absentees
+sess_unauth_holiday                    |  Number of unauthorised holiday sessions
+sess_unauth_late                       |  Number of late sessions
+sess_unauth_noyet                      |  Number of no reason yet sessions
+sess_unauth_other                      |  Number of unauthorised other sessions
+sess_unauth_totalreasons               |  Number of unauthorised reasons sessions
+sess_unauthorised                      |  Number of unauthorised absence sessions
+sess_unauthorised_pa_10_exact          |  Number of unauthorised absence sessions for persistent absentees
+sess_unauthorised_percent              |  Unauthorised absence rate
+sess_unauthorised_percent_pa_10_exact  |  Unauthorised absence rate exact
+sess_x_covid                           |  Number of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional                     |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates by pupil characteristic - termly
+
+Filename: 6b_absence_2term_characteristics_termly.csv
+Geographic levels: National
+Time period: 2020/21 Autumn term to 2022/23 Spring term
+Content summary: Termly absence information by characteristics for all enrolments in state-funded primary, secondary and special schools including information on overall absence, persistent absence and reason for absence for pupils aged 5-15.
+
+Characteristics included are gender, year group, free school meal eligibility, SEN provision, SEN type of need, ethnicity and language.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                          |  Variable description
+-------------------------------------  |  -----------------------------------------------------------------------------------
+characteristic                         |  Characteristic - Filter by characteristic
+enrolments                             |  Number of pupil enrolments
+enrolments_pa_10_exact                 |  Number of persistent absentees - 10% or more sessions missed
+enrolments_pa_10_exact_percent         |  Percentage of persistent absentees - 10% or more sessions missed
+school_type                            |  School type - Filter by school type - Total includes primary, secondary and special
+sess_auth_appointments                 |  Number of medical appointments sessions
+sess_auth_excluded                     |  Number of excluded sessions
+sess_auth_ext_holiday                  |  Number of extended authorised holiday sessions
+sess_auth_holiday                      |  Number of authorised holiday sessions
+sess_auth_illness                      |  Number of illness sessions
+sess_auth_other                        |  Number of authorised other sessions
+sess_auth_religious                    |  Number of religious observance sessions
+sess_auth_study                        |  Number of study leave sessions
+sess_auth_totalreasons                 |  Number of authorised reasons sessions
+sess_auth_traveller                    |  Number of traveller sessions
+sess_authorised                        |  Number of authorised absence sessions
+sess_authorised_pa_10_exact            |  Number of authorised absence sessions for persistent absentees
+sess_authorised_percent                |  Authorised absence rate
+sess_authorised_percent_pa_10_exact    |  Authorised absence rate exact
+sess_overall                           |  Number of overall absence sessions
+sess_overall_pa_10_exact               |  Number of overall absence sessions for persistent absentees
+sess_overall_percent                   |  Overall absence rate
+sess_overall_percent_pa_10_exact       |  Overall absence rate exact
+sess_overall_totalreasons              |  Number of overall reasons sessions
+sess_possible                          |  Number of sessions possible
+sess_possible_pa_10_exact              |  Number of sessions possible for persistent absentees
+sess_unauth_holiday                    |  Number of unauthorised holiday sessions
+sess_unauth_late                       |  Number of late sessions
+sess_unauth_noyet                      |  Number of no reason yet sessions
+sess_unauth_other                      |  Number of unauthorised other sessions
+sess_unauth_totalreasons               |  Number of unauthorised reasons sessions
+sess_unauthorised                      |  Number of unauthorised absence sessions
+sess_unauthorised_pa_10_exact          |  Number of unauthorised absence sessions for persistent absentees
+sess_unauthorised_percent              |  Unauthorised absence rate
+sess_unauthorised_percent_pa_10_exact  |  Unauthorised absence rate exact
+sess_x_covid                           |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate                      |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional                     |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates in state-funded alternative provision - autumn and spring term combined
+
+Filename: 4_absence_2term_pru.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2013/14 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: Absence information for state-funded alternative provision (including pupil referral units, alternative provision academies and free schools).
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                   |  Variable description
+------------------------------  |  -----------------------------------------------------------------------
+enrolments                      |  Number of pupil enrolments
+enrolments_pa_10_exact          |  Number of persistent absentees - 10% or more sessions missed
+enrolments_pa_10_exact_percent  |  Percentage of persistent absentees - 10% or more sessions missed
+enrolments_pa_50_exact          |  Number of persistent absentees - 50% or more sessions missed
+enrolments_pa_50_exact_percent  |  Percentage of persistent absentees - 50% or more sessions missed
+num_schools                     |  Number of schools
+sess_auth_appointments          |  Number of medical appointments sessions
+sess_auth_excluded              |  Number of excluded sessions
+sess_auth_ext_holiday           |  Number of extended authorised holiday sessions
+sess_auth_holiday               |  Number of authorised holiday sessions
+sess_auth_illness               |  Number of illness sessions
+sess_auth_other                 |  Number of authorised other sessions
+sess_auth_religious             |  Number of religious observance sessions
+sess_auth_study                 |  Number of study leave sessions
+sess_auth_totalreasons          |  Number of authorised reasons sessions
+sess_auth_traveller             |  Number of traveller sessions
+sess_authorised                 |  Number of authorised absence sessions
+sess_authorised_percent         |  Authorised absence rate
+sess_overall                    |  Number of overall absence sessions
+sess_overall_percent            |  Overall absence rate
+sess_overall_totalreasons       |  Number of overall reasons sessions
+sess_possible                   |  Number of sessions possible
+sess_unauth_holiday             |  Number of unauthorised holiday sessions
+sess_unauth_late                |  Number of late sessions
+sess_unauth_noyet               |  Number of no reason yet sessions
+sess_unauth_other               |  Number of unauthorised other sessions
+sess_unauth_totalreasons        |  Number of unauthorised reasons sessions
+sess_unauthorised               |  Number of unauthorised absence sessions
+sess_unauthorised_percent       |  Unauthorised absence rate
+sess_x_covid                    |  Number of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional              |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates in state-funded alternative provision - full academic years
+
+Filename: 5_absence_3term_pru.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2013/14 to 2021/22
+Content summary: 
+Absence rates for state-funded alternative provision (includes pupil referral units, alternative provision academies and alternative provision free schools
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                   |  Variable description
+------------------------------  |  -----------------------------------------------------------------------
+enrolments                      |  Number of pupil enrolments
+enrolments_pa_10_exact          |  Number of persistent absentees (10% or more missed)
+enrolments_pa_10_exact_percent  |  Percentage of persistent absentees (10% or more missed)
+enrolments_pa_50_exact          |  Number of severely absent pupils (50% or more missed)
+enrolments_pa_50_exact_percent  |  Percentage of severely absent pupils (50% or more missed)
+num_schools                     |  Number of schools
+sess_auth_appointments          |  Number of medical appointments sessions
+sess_auth_excluded              |  Number of excluded sessions
+sess_auth_ext_holiday           |  Number of extended authorised holiday sessions
+sess_auth_holiday               |  Number of authorised holiday sessions
+sess_auth_illness               |  Number of illness sessions
+sess_auth_other                 |  Number of authorised other sessions
+sess_auth_religious             |  Number of religious observance sessions
+sess_auth_study                 |  Number of study leave sessions
+sess_auth_totalreasons          |  Number of authorised reasons sessions
+sess_auth_traveller             |  Number of traveller sessions
+sess_authorised                 |  Number of authorised absence sessions
+sess_authorised_percent         |  Authorised absence rate
+sess_overall                    |  Number of overall absence sessions
+sess_overall_percent            |  Overall absence rate
+sess_overall_totalreasons       |  Number of overall reasons sessions
+sess_possible                   |  Number of sessions possible
+sess_unauth_holiday             |  Number of unauthorised holiday sessions
+sess_unauth_late                |  Number of late sessions
+sess_unauth_noyet               |  Number of no reason yet sessions
+sess_unauth_other               |  Number of unauthorised other sessions
+sess_unauth_totalreasons        |  Number of unauthorised reasons sessions
+sess_unauthorised               |  Number of unauthorised absence sessions
+sess_unauthorised_percent       |  Unauthorised absence rate
+sess_x_covid                    |  Number of sessions recorded as not attending due to COVID circumstances
+sess_x_covid_rate               |  Rate of sessions recorded as not attending due to COVID circumstances
+sess_y_exceptional              |  Number of sessions recorded as exceptional circumstances
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates as a percentage of possible sessions by band - autumn and spring term combined
+
+Filename: 3_absence_2term_onepercent_bands.csv
+Geographic levels: National
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: The number of pupil enrolments by their absence in the term as a percentage of possible sessions. Covers overall absence, authorised absence and unauthorised absence.
+
+Data by one percent bands.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                    |  Variable description
+-------------------------------  |  ---------------------------------------------------------------------------------------------------------------------
+enrolments_authorised            |  Number of all pupil enrolments that fall into that per cent band for authorised absence
+enrolments_authorised_percent    |  Percentage of all pupil enrolments that fall into that per cent band for authorised absence
+enrolments_illness               |  Number of all pupil enrolments that fall into that per cent band for illness absence
+enrolments_illness_percent       |  Percentage of all pupil enrolments that fall into that per cent band for illness absence
+enrolments_overall               |  Number of all pupil enrolments that fall into that per cent band for overall absence
+enrolments_overall_percent       |  Percentage of all pupil enrolments that fall into that per cent band for overall absence
+enrolments_sess_x_covid          |  Number of all pupil enrolments that fall into that per cent band for non-attendance due to coronavirus (COVID-19)
+enrolments_sess_x_covid_percent  |  Percentage of all pupil enrolments that fall into that per cent band for non-attendance due to coronavirus (COVID-19)
+enrolments_unauthorised          |  Number of all pupil enrolments that fall into that per cent band for unauthorised absence
+enrolments_unauthorised_percent  |  Percentage of all pupil enrolments that fall into that per cent band for unauthorised absence
+percent_bands                    |  Absence percentage band - Filter by percentage of absence
+school_type                      |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates as a percentage of possible sessions by band - full academic years
+
+Filename: 3_absence_3term_one_pc_bands.csv
+Geographic levels: National
+Time period: 2013/14 to 2021/22
+Content summary: The number of pupil enrolments by overall, authorised and unauthorised absence percentage point bands.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                    |  Variable description
+-------------------------------  |  ---------------------------------------------------------------------------------------------------------------------
+enrolments_authorised            |  Number of all pupil enrolments that fall into that per cent band for authorised absence
+enrolments_authorised_percent    |  Percentage of all pupil enrolments that fall into that per cent band for authorised absence
+enrolments_illness               |  Number of all pupil enrolments that fall into that per cent band for illness absence
+enrolments_illness_percent       |  Percentage of all pupil enrolments that fall into that per cent band for illness absence
+enrolments_overall               |  Number of all pupil enrolments that fall into that per cent band for overall absence
+enrolments_overall_percent       |  Percentage of all pupil enrolments that fall into that per cent band for overall absence
+enrolments_sess_x_covid          |  Number of all pupil enrolments that fall into that per cent band for non-attendance due to coronavirus (COVID-19)
+enrolments_sess_x_covid_percent  |  Percentage of all pupil enrolments that fall into that per cent band for non-attendance due to coronavirus (COVID-19)
+enrolments_unauthorised          |  Number of all pupil enrolments that fall into that per cent band for unauthorised absence
+enrolments_unauthorised_percent  |  Percentage of all pupil enrolments that fall into that per cent band for unauthorised absence
+percent_bands                    |  Absence percentage band - Filter by percentage of absence
+school_type                      |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+Absence rates for four year olds - autumn and spring term combined
+
+Filename: 5_absence_2term_4year_olds.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: Overall absence for all enrolments in state-funded primary, secondary and special schools for pupils aged 4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name         |  Variable description
+--------------------  |  -----------------------------------
+enrolments            |  Number of pupil enrolments
+num_schools           |  Number of schools
+school_type           |  School type - Filter by school type
+sess_overall          |  Number of overall absence sessions
+sess_overall_percent  |  Overall absence rate
+sess_possible         |  Number of sessions possible
+
+
+Absence rates for four year olds - school level - autumn and spring term combined
+
+Filename: 5_absence_2term_4year_olds_school.csv
+Geographic levels: School
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: 
+Overall absence for all enrolments in state-funded primary, secondary and special schools for pupils aged 4.  Includes school level data.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name         |  Variable description
+--------------------  |  -----------------------------------
+enrolments            |  Number of pupil enrolments
+num_schools           |  Number of schools
+school_type           |  School type - Filter by school type
+sess_overall          |  Number of overall absence sessions
+sess_overall_percent  |  Overall absence rate
+sess_possible         |  Number of sessions possible
+
+
+Enrolments with one or more session of absence, including by reason for absence - autumn and spring term combined
+
+Filename: 2_absence_2term_oneplussessions_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: The number of enrolments with one or more session of absence, including by reason for absence.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------------------------------------------
+enrol_auth_appointments  |  Number of enrolments with at least one absence session due to medical or dental appointments
+enrol_auth_excluded      |  Number of enrolments with at least one absence session due to exclusion
+enrol_auth_ext_holiday   |  Number of enrolments with at least one absence session due to agreed extended family holiday
+enrol_auth_holiday       |  Number of enrolments with at least one absence session due to agreed family holiday
+enrol_auth_illness       |  Number of enrolments with at least one absence session due to illness
+enrol_auth_other         |  Number of enrolments with at least one absence session due to other authorised circumstances
+enrol_auth_religious     |  Number of enrolments with at least one absence session due to religious observance
+enrol_auth_study         |  Number of enrolments with at least one absence session due to study leave
+enrol_auth_traveller     |  Number of enrolments with at least one absence session due to traveller absence
+enrol_authorised         |  Number of enrolments with at least one authorised absence session
+enrol_overall            |  Number of enrolments with at least one overall absence session
+enrol_unauth_holiday     |  Number of enrolments with at least one absence session due to family holiday not agreed
+enrol_unauth_late        |  Number of enrolments with at least one absence session due to arriving late
+enrol_unauth_noyet       |  Number of enrolments with at least one absence session due to no reason yet
+enrol_unauth_other       |  Number of enrolments with at least one absence session due to other unauthorised circumstances
+enrol_unauthorised       |  Number of enrolments with at least one unauthorised absence session
+enrol_x_covid            |  Number of enrolments with at least one absence session due to not attending due to COVID circumstances
+enrol_y_exceptional      |  Number of enrolments with at least one absence session due to exceptional circumstances
+enrolments               |  Number of pupil enrolments
+num_schools              |  Number of schools
+school_type              |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+	Enrolments with one or more session of absence, including by reason for absence - full academic years
+
+Filename: 2_absence_3term_one_plus_sessions_nat_reg_la.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2012/13 to 2021/22
+Content summary: 
+The number of enrolments with one or more session of absence, including by reason for absence.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------------------------------------------
+enrol_auth_appointments  |  Number of enrolments with at least one absence session due to medical or dental appointments
+enrol_auth_excluded      |  Number of enrolments with at least one absence session due to exclusion
+enrol_auth_ext_holiday   |  Number of enrolments with at least one absence session due to agreed extended family holiday
+enrol_auth_holiday       |  Number of enrolments with at least one absence session due to agreed family holiday
+enrol_auth_illness       |  Number of enrolments with at least one absence session due to illness
+enrol_auth_other         |  Number of enrolments with at least one absence session due to other authorised circumstances
+enrol_auth_religious     |  Number of enrolments with at least one absence session due to religious observance
+enrol_auth_study         |  Number of enrolments with at least one absence session due to study leave
+enrol_auth_traveller     |  Number of enrolments with at least one absence session due to traveller absence
+enrol_authorised         |  Number of enrolments with at least one authorised absence session
+enrol_overall            |  Number of enrolments with at least one overall absence session
+enrol_unauth_holiday     |  Number of enrolments with at least one absence session due to family holiday not agreed
+enrol_unauth_late        |  Number of enrolments with at least one absence session due to arriving late
+enrol_unauth_noyet       |  Number of enrolments with at least one absence session due to no reason yet
+enrol_unauth_other       |  Number of enrolments with at least one absence session due to other unauthorised circumstances
+enrol_unauthorised       |  Number of enrolments with at least one unauthorised absence session
+enrol_x_covid            |  Number of enrolments with at least one absence session due to not attending due to COVID circumstances
+enrol_y_exceptional      |  Number of enrolments with at least one absence session due to exceptional circumstances
+enrolments               |  Number of pupil enrolments
+num_schools              |  Number of schools
+school_type              |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+	Enrolments with one or more session of absence, including by reason for absence - school level - autumn and spring term combined
+
+Filename: 2_absence_2term_oneplussessions_school_level.csv
+Geographic levels: School
+Time period: 2016/17 Autumn and spring term to 2022/23 Autumn and spring term
+Content summary: The number of enrolments with one or more session of absence, including by reason for absence. Includes school level data.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------------------------------------------
+enrol_auth_appointments  |  Number of enrolments with at least one absence session due to medical or dental appointments
+enrol_auth_excluded      |  Number of enrolments with at least one absence session due to exclusion
+enrol_auth_ext_holiday   |  Number of enrolments with at least one absence session due to agreed extended family holiday
+enrol_auth_holiday       |  Number of enrolments with at least one absence session due to agreed family holiday
+enrol_auth_illness       |  Number of enrolments with at least one absence session due to illness
+enrol_auth_other         |  Number of enrolments with at least one absence session due to other authorised circumstances
+enrol_auth_religious     |  Number of enrolments with at least one absence session due to religious observance
+enrol_auth_study         |  Number of enrolments with at least one absence session due to study leave
+enrol_auth_traveller     |  Number of enrolments with at least one absence session due to traveller absence
+enrol_authorised         |  Number of enrolments with at least one authorised absence session
+enrol_overall            |  Number of enrolments with at least one overall absence session
+enrol_unauth_holiday     |  Number of enrolments with at least one absence session due to family holiday not agreed
+enrol_unauth_late        |  Number of enrolments with at least one absence session due to arriving late
+enrol_unauth_noyet       |  Number of enrolments with at least one absence session due to no reason yet
+enrol_unauth_other       |  Number of enrolments with at least one absence session due to other unauthorised circumstances
+enrol_unauthorised       |  Number of enrolments with at least one unauthorised absence session
+enrol_x_covid            |  Number of enrolments with at least one absence session due to not attending due to COVID circumstances
+enrol_y_exceptional      |  Number of enrolments with at least one absence session due to exceptional circumstances
+enrolments               |  Number of pupil enrolments
+num_schools              |  Number of schools
+school_type              |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
+
+
+	Enrolments with one or more session of absence, including by reason for absence - school level - full academic years
+
+Filename: 2_absence_3term_one_plus_sessions_school.csv
+Geographic levels: School
+Time period: 2013/14 to 2021/22
+Content summary: 
+The number of enrolments with one or more session of absence, including by reason for absence. Includes school level data.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------------------------------------------
+enrol_auth_appointments  |  Number of enrolments with at least one absence session due to medical or dental appointments
+enrol_auth_excluded      |  Number of enrolments with at least one absence session due to exclusion
+enrol_auth_ext_holiday   |  Number of enrolments with at least one absence session due to agreed extended family holiday
+enrol_auth_holiday       |  Number of enrolments with at least one absence session due to agreed family holiday
+enrol_auth_illness       |  Number of enrolments with at least one absence session due to illness
+enrol_auth_other         |  Number of enrolments with at least one absence session due to other authorised circumstances
+enrol_auth_religious     |  Number of enrolments with at least one absence session due to religious observance
+enrol_auth_study         |  Number of enrolments with at least one absence session due to study leave
+enrol_auth_traveller     |  Number of enrolments with at least one absence session due to traveller absence
+enrol_authorised         |  Number of enrolments with at least one authorised absence session
+enrol_overall            |  Number of enrolments with at least one overall absence session
+enrol_unauth_holiday     |  Number of enrolments with at least one absence session due to family holiday not agreed
+enrol_unauth_late        |  Number of enrolments with at least one absence session due to arriving late
+enrol_unauth_noyet       |  Number of enrolments with at least one absence session due to no reason yet
+enrol_unauth_other       |  Number of enrolments with at least one absence session due to other unauthorised circumstances
+enrol_unauthorised       |  Number of enrolments with at least one unauthorised absence session
+enrol_x_covid            |  Number of enrolments with at least one absence session due to not attending due to COVID circumstances
+enrol_y_exceptional      |  Number of enrolments with at least one absence session due to exceptional circumstances
+enrolments               |  Number of pupil enrolments
+num_schools              |  Number of schools
+school_type              |  School type - Filter by school type
+
+Footnotes:
+
+1. Sessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.
